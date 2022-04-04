@@ -22,6 +22,7 @@ const ChattWindow = styled.div`
 `;
 
 function OtherPlayers({ id, x, y }) {
+  // eslint-disable-next-line
   const [chattOn, setChattOn] = useRecoilState(chattingOnState);
 
   return (
