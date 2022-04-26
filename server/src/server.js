@@ -3,10 +3,13 @@ import http from "http";
 import { Server } from "socket.io";
 import cors from "cors";
 
+const PORT = process.env.PORT || 3003;
+
 const app = express();
 app.use(cors());
+
 const server = http.createServer(app);
-server.listen(3003, () => {
+server.listen(PORT, () => {
   console.log("✅ Server listening on port 3003");
 });
 const io = new Server(server, {
