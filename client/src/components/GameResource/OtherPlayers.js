@@ -14,7 +14,6 @@ const NameTag = styled.div`
   border-radius: 5px;
   font-size: 1rem;
 `;
-
 const ChattWindow = styled.div`
   padding: 5px;
   border-radius: 5px;

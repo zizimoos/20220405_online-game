@@ -60,6 +60,7 @@ function GameApp(props) {
     });
   });
   console.log("PlayerArry", PlayerArry);
+
   return (
     <Container>
       <Title>PlayGround</Title>
