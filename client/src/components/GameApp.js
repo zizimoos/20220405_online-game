@@ -35,7 +35,7 @@ const CanvasContainer = styled.div`
   background-color: black;
 `;
 
-const socket = io("http://localhost:3003");
+const socket = io("https://mogame-server-01.herokuapp.com/");
 
 function GameApp(props) {
   const [isLogin, setIsLogin] = useRecoilState(isLoginState);
